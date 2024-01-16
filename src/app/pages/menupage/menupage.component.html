@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-lg-6" *ngIf="menudata">
             <a routerLink="../../menu" class="btn btn-dark btn-md mb-3"><i class="bi bi-arrow-left"></i>Back</a>
-            <img src={{menudata[0].foodimg}} alt="" width="100%">
+            <img src= {{menudata[0].foodimg}} alt="" width="100%">
             <h1 class="mt-3">{{menudata[0].foodname}}</h1>
             <p>{{menudata[0].foodDetails}}</p>
             <p>{{menudata[0].foodPrice | currency:'INR'}}</p>
